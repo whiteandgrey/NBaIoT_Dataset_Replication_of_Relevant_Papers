@@ -209,7 +209,7 @@ GPU_MEMORY_LIMIT = 4096
 
 | 参数名称 | 数据类型 | 默认值 | 取值范围 | 功能描述 | 修改建议 |
 |---------|---------|--------|---------|---------|---------|
-| DATA_ROOT | str | "C:\Users\WWWWG\Desktop\NBaIoT" | 有效路径 | N-BaIoT数据集根目录 | 修改为实际数据集路径 |
+| DATA_ROOT | str | "C:\Users\USER\Desktop\NBaIoT" | 有效路径 | N-BaIoT数据集根目录 | 修改为实际数据集路径 |
 | OUTPUT_DIR | str | "./training_results" | 有效路径 | 训练结果输出目录 | 可自定义输出位置 |
 | MODEL_SAVE_DIR | str | "./saved_models" | 有效路径 | 模型保存目录 | 与OUTPUT_DIR保持一致 |
 
