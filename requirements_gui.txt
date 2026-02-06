@@ -1,0 +1,77 @@
+# N-BaIoT自编码器训练系统 - 依赖包列表
+# N-BaIoT Autoencoder Training System - Dependencies
+
+# ============================================
+# 核心依赖 (必需)
+# ============================================
+
+# 深度学习框架
+tensorflow>=2.10.0
+
+# GUI界面
+PyQt5>=5.15.0
+
+# 数据处理
+numpy>=1.21.0
+pandas>=1.5.0
+scikit-learn>=1.1.0
+
+# 可视化
+matplotlib>=3.5.0
+seaborn>=0.12.0
+
+# 工具库
+scipy>=1.9.0
+joblib>=1.2.0
+
+# ============================================
+# 可选依赖 (增强功能)
+# ============================================
+
+# Jupyter支持 (用于notebook环境)
+# jupyter>=1.0.0
+
+# TensorBoard支持 (已在代码中内置)
+# tensorboard>=2.10.0
+
+# 性能监控
+# psutil>=5.9.0
+
+# ============================================
+# 安装说明
+# ============================================
+
+# 完整安装:
+# pip install -r requirements.txt
+
+# 最小安装 (仅核心功能):
+# pip install tensorflow numpy pandas scikit-learn matplotlib PyQt5
+
+# 单独安装:
+# pip install tensorflow
+# pip install PyQt5
+# pip install matplotlib pandas scikit-learn
+
+# ============================================
+# 版本兼容性
+# ============================================
+
+# 推荐环境:
+# - Python 3.8 - 3.11
+# - TensorFlow 2.10 - 2.14
+# - CUDA 11.2+ (可选，用于GPU加速)
+# - cuDNN 8.1+ (可选)
+
+# 注意事项:
+# 1. TensorFlow 2.10+ 推荐使用 Python 3.8-3.10
+# 2. Windows用户推荐使用Python 3.9以获得最佳兼容性
+# 3. MacOS/Apple Silicon用户可能需要特殊安装步骤
+# 4. 确保PyQt5版本与Python版本匹配
+
+# ============================================
+# 验证安装
+# ============================================
+
+# python -c "import tensorflow as tf; print('TensorFlow:', tf.__version__)"
+# python -c "from PyQt5.QtWidgets import QApplication; print('PyQt5: OK')"
+# python -c "import matplotlib; print('Matplotlib:', matplotlib.__version__)"
