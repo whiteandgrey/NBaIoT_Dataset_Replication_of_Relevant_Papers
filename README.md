@@ -1,6 +1,5 @@
 # NBaIoT Dataset Replication of Relevant Papers
 论文复现：尝试用NBaIoT数据集复现一个以自编码器为核心的物联网设备入侵检测项目
-
 启动图形化界面：使用合适的环境运行app.py
 
 使用默认配置直接运行程序：运行main.py
