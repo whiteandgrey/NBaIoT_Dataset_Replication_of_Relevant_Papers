@@ -8,3 +8,5 @@
 默认配置：修改config.py脚本相关代码
 
 环境：详细请看requirement.txt
+
+数据集：http://archive.ics.uci.edu/dataset/442/detection+of+iot+botnet+attacks+n+baiot （1.7GB）
