@@ -22,7 +22,7 @@ class Config:
     GPU_DEVICES = "0"  # 使用哪个GPU，例如："0"或"0,1"或"-1"表示禁用GPU
 
     # ============ 路径配置 ============
-    DATA_ROOT = r"C:\Users\WWWWG\Desktop\NBaIoT"  # 用户需要修改为实际路径
+    DATA_ROOT = r"C:\Users\USER\Desktop\NBaIoT"  # 用户需要修改为实际路径
     OUTPUT_DIR = "./training_results"
     MODEL_SAVE_DIR = "./saved_models"
 
